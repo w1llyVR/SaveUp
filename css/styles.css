@@ -1,734 +1,823 @@
-@import url(/fuentes/NunitoSans-Light.ttf);
-* {
-    padding: 0px;
-    margin: 0px;
-    text-decoration: none;
-    font-family: 'NunitoSans-Light';
-}
-
-#container {
-    width: 80%;
-    height: auto;
-    margin: 0px auto;
-}
-
-#botonLogin {
-    color: #67C5C8;
-    border: #67C5C8 solid 2px;
-    float: left;
-}
-
-#botonRegistro {
-    color: #67C5C8;
-    border: #67C5C8 solid 2px;
-    margin-left: 15px;
-    float: left;
-}
-
-#botonRegistro:hover {
-    background-color: #67C5C8;
-    color: white;
-}
-
-#botonLogin:hover {
-    background-color: #67C5C8;
-    color: white;
-}
-
-#logo {
-    width: 100px;
-    height: 80px;
-}
-
-#botonRegistro2 {
-    color: #67C5C8;
-    border: #67C5C8 solid 2px;
-    width: 100%;
-}
-
-#botonRegistro2:hover {
-    background-color: #67C5C8;
-    color: white;
-}
-
-#botoncompra {
-    background-color: #67C5C8;
-    color: white;
-    border: #67C5C8 solid 2px;
-    width: 50%;
-    position: relative;
-    left: 25%;
-    margin-top: 20px;
-}
-
-.caracteristicas {
-    margin: 0px;
-}
-
-#titulo2 {
-    margin-top: 60px !important;
-}
-
-input:focus,
-select:focus,
-select,
-input.form-control:focus {
-    outline: none !important;
-    outline-width: 0 !important;
-    box-shadow: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    border-color: #67C5C8 !important;
-}
-
-#navsito {
-    background-color: white !important;
-}
-
-h1,
-h2 {
-    text-align: center;
-}
-
-.form-control {
-    background-color: #F7F7FD !important;
-}
-
-#paginaCentral {
-    background-color: #F7F7FD;
-    width: 70%;
-    height: 780px;
-    border-radius: 40px;
-    float: left;
-    margin-left: 15%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#pagina {
-    float: left;
-    width: 100%;
-}
-
-#cajon2 {
-    float: left;
-    width: 60%;
-    margin: 15px;
-    margin-top: 25px;
-}
-
-#cajon1 {
-    float: left;
-    width: 10%;
-    margin: 15px;
-}
-
-#cajon3 {
-    float: left;
-    width: 20%;
-    margin: 15px;
-    margin-top: 29px;
-}
-
-#inpusitaso {
-    width: 80%;
-    float: left;
-}
-
-#imagensita {
-    width: 15%;
-    float: left;
-}
-
-#inputsito4 {
-    width: 250%;
-}
-
-#conjunto {
-    float: left;
-    width: 45%;
-    background-color: #F7F7FD;
-    border-radius: 5px;
-}
-
-.aea {
-    border: #67C5C8 0px solid;
-    background-color: #F7F7FD;
-    border-radius: 5px;
-    height: 50px;
-    margin-left: 20px;
-}
-
-footer {
-    width: 100%;
-    background-color: #67C5C8;
-    height: auto;
-    margin-top: 50px;
-}
-
-footer img {
-    width: 86%;
-    background-color: #67C5C8;
-    padding-left: 14%;
-}
-
-.espacito {
-    padding-top: 20px;
-}
-
-.espacito2 {
-    padding-top: 35px;
-}
-
-.contenido {
-    background-color: white;
-    width: 20%;
-    height: 200px;
-    float: left;
-    margin: 6%;
-    border-radius: 20px;
-    margin-left: 7%;
-}
-
-.contenido img {
-    width: 76%;
-    margin-left: 11%;
-    margin-top: 10px;
-}
-
-#dorito {
-    width: 65% !important;
-    margin-left: 15% !important;
-}
-
-.clearfix {
-    float: none;
-    clear: both;
-}
-
-#pagina2 {
-    background-color: #F7F7FD;
-    width: 70%;
-    height: auto;
-    border-radius: 40px;
-    float: left;
-    margin-left: 15%;
-    margin-top: 20px;
-}
-
-#pagina3 {
-    width: 91%;
-    height: auto;
-    margin-left: 4%;
-    float: left;
-}
-
-#slider {
-    overflow: hidden;
-}
-
-#slider figure img {
-    float: left;
-    width: 20%;
-    position: relative;
-    margin: 0;
-    left: -20%;
-    animation: 10s sliders infinite linear;
-}
-
-#paginaCentral2 {
-    background-color: #F7F7FD;
-    width: 60%;
-    height: 1150px;
-    border-radius: 40px;
-    float: left;
-    margin-left: 20%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.item-one {
-    width: 100%;
-    float: left;
-}
-
-.boxito {
-    width: 80%;
-    float: left;
-}
-
-.linea {
-    width: 100%;
-    background-color: #E95D5D;
-    height: 8px;
-}
-
-.boxito2 {
-    width: 20%;
-    float: left;
-    position: relative;
-    left: -40%;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.boxito3 {
-    height: 15px;
-    float: left;
-    color: #E95D5D;
-    position: relative;
-    top: -60px;
-    padding-left: 5%;
-}
-
-.item-one .boxito img {
-    width: 20%;
-    height: 10%;
-    margin: 20px;
-}
-
-#aaaaa {
-    color: gray;
-}
-
-@keyframes sliders {
-    from {
-        left: -95%;
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+    * {
+        padding: 0px;
+        margin: 0px;
+        text-decoration: none;
+        font-family: 'NunitoSans-Light';
     }
-    to {
-        left: 98%;
+    
+    #container {
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
     }
-}
-
-#conteiner3 {
-    width: 40%;
-    background-color: #E95D5D;
-    position: absolute !important;
-    height: 1736px;
-    top: 0;
-    left: 60%;
-}
-
-#conteiner3 strong h1 {
-    color: white;
-    margin-top: 45px;
-    float: left;
-    width: 50%;
-    margin-left: 15px;
-}
-
-#conteiner3 #imagensita {
-    margin-top: 30px;
-    float: right;
-    width: 40%;
-    padding-right: 15px;
-}
-
-#conteiner3 #imagensita img {
-    margin-top: 30px;
-    height: 20%;
-    width: 40%;
-    padding-right: 15px;
-    margin-left: 50%;
-    position: relative;
-    bottom: 35px;
-    left: 30px;
-}
-
-#pipilin {
-    width: 100%;
-}
-
-#maincra1 {
-    float: left;
-    width: 100%;
-}
-
-.maincra1_incorrecto {
-    color: red;
-}
-
-.maincra1_correcto {
-    color: greenyellow;
-}
-
-#pibe {
-    float: left;
-    width: 100%;
-}
-
-#imagenPoderosa {
-    float: left;
-    width: 45%;
-}
-
-#escrituras {
-    float: left;
-    width: 40%;
-}
-
-#escrituras p {
-    font-size: 27px;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-#imagenPoderosa img {
-    width: 40%;
-    height: 40%;
-    margin-left: 50%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-#maincra2 {
-    float: left;
-    width: 100%;
-}
-
-#maincra3 {
-    float: left;
-    width: 100%;
-}
-
-#maincra4 {
-    float: left;
-    width: 100%;
-}
-
-#maincra5 {
-    float: left;
-    width: 100%;
-}
-
-#maincra6 {
-    float: left;
-    width: 100%;
-}
-
-.inputsito33 {
-    background-color: #F7F7FD;
-    border: #67C5C8 1px;
-    border-radius: 5px;
-    height: 60px;
-    margin-left: 6%;
-    text-align: center;
-    margin-top: 20px;
-    width: 90%;
-}
-
-#botoncompra2 {
-    background-color: #67C5C8;
-    color: white;
-    border: #67C5C8 solid 2px;
-    width: 30%;
-    position: relative;
-    left: 37%;
-    margin-top: 40px;
-}
-
-#botoncompra3 {
-    background-color: #67C5C8;
-    color: white;
-    border: #67C5C8 solid 2px;
-    width: 30%;
-    position: relative;
-    margin-top: 40px;
-}
-
-@media (max-width: 1890px) {
-    /*se ejecuratan estos estilos en este width*/
-    #inputsito4 {
-        width: 250%;
-    }
-}
-
-@media (max-width: 1790px) {
-    /*se ejecuratan estos estilos en este width*/
-    #inputsito4 {
-        width: 250%;
-    }
-    .caracteristicas {
-        font-size: 100%;
-    }
-    #paginaCentral {
-        height: 750px;
-    }
-    .espacito {
-        height: 40px;
-    }
-    .espacito2 {
-        height: 50px;
-    }
-    .contenido {
-        margin-bottom: 80px;
-    }
-    #paginaCentral2 {
-        height: 1050px;
-        margin-left: 20%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .boxito2 {
-        width: 20%;
-        position: relative;
-        left: -40%;
-        top: -20px;
-        text-align: center;
-        padding-top: 20px;
-    }
-    .boxito3 {
-        height: 15px;
-        position: relative;
-        top: -90px;
-        padding-left: 5%;
-    }
-}
-
-@media (max-width: 1480px) {
-    #paginaCentral {
-        height: 730px;
-    }
-    .espacito {
-        height: 60px;
-    }
-    .espacito2 {
-        height: 70px;
-    }
-    .contenido {
-        margin-bottom: 80px;
-    }
-    #paginaCentral2 {
-        height: 1050px;
-        margin-left: 20%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .boxito2 {
-        width: 20%;
-        position: relative;
-        left: -40%;
-        top: -50px;
-        text-align: center;
-        padding-top: 20px;
-    }
-    .boxito3 {
-        position: relative;
-        top: -110px;
-        left: 550px;
-        padding-left: 5%;
-    }
-    #doritoslocos {
-        position: relative;
-        left: -5px;
-    }
-}
-
-@media (max-width: 1427px) {
-    #paginaCentral2 {
-        height: 1180px;
-        margin-left: 20%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .boxito2 {
-        width: 20%;
-        position: relative;
-        left: -40%;
-        top: -50px;
-        text-align: center;
-        padding-top: 20px;
-    }
-    .boxito3 {
-        position: relative;
-        top: -130px;
-        left: 450px;
-        padding-left: 5%;
-    }
-    #doritoslocos {
-        position: relative;
-        left: 450px;
-    }
-}
-
-@media (max-width: 1260px) {
-    #paginaCentral {
-        height: 730px;
-    }
-    #cajon3 {
-        float: left;
-        width: 20%;
-        margin-top: 29px;
-    }
-    #inpusitaso {
-        width: 70%;
+    
+    #botonLogin {
+        color: #67C5C8;
+        border: #67C5C8 solid 2px;
         float: left;
     }
-    #imagensita {
-        width: 10%;
+    
+    #botonRegistro {
+        color: #67C5C8;
+        border: #67C5C8 solid 2px;
+        margin-left: 15px;
         float: left;
     }
-    #inputsito4 {
-        width: 280%;
+    
+    #botonRegistro:hover {
+        background-color: #67C5C8;
+        color: white;
     }
-    .espacito {
-        height: 80px;
+    
+    #botonLogin:hover {
+        background-color: #67C5C8;
+        color: white;
     }
-    .espacito2 {
-        height: 90px;
+    
+    #logo {
+        width: 100px;
+        height: 100px;
+        border-right: 20px;
     }
-    .contenido {
-        margin-bottom: 90px;
-    }
-    #paginaCentral2 {
-        height: 990px;
-        margin-left: 20%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .boxito2 {
-        width: 20%;
-        position: relative;
-        left: -40%;
-        top: -50px;
-        text-align: center;
-        padding-top: 20px;
-    }
-    .boxito3 {
-        position: relative;
-        top: -130px;
-        left: 450px;
-        padding-left: 5%;
-    }
-    #doritoslocos {
-        position: relative;
-        left: 450px;
-    }
-}
-
-@media (max-width: 1239px) {
-    #cajon3 {
-        float: left;
+    
+    #botonRegistro2 {
+        color: #67C5C8;
+        border: #67C5C8 solid 2px;
         width: 100%;
+    }
+    
+    #botonRegistro2:hover {
+        background-color: #67C5C8;
+        color: white;
+    }
+    
+    #botoncompra {
+        background-color: #67C5C8;
+        color: white;
+        border: #67C5C8 solid 2px;
+        width: 50%;
+        position: relative;
+        left: 25%;
+        margin-top: 20px;
+    }
+    
+    .caracteristicas {
+        margin: 0px;
+    }
+    
+    #titulo2 {
+        margin-top: 60px !important;
+    }
+    
+    input:focus,
+    select:focus,
+    select,
+    input.form-control:focus {
+        outline: none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        border-color: #67C5C8 !important;
+    }
+    
+    #navsito {
+        background-color: white !important;
+    }
+    
+    h1,
+    h2 {
+        text-align: center;
+    }
+    
+    .form-control {
+        background-color: #F7F7FD !important;
+    }
+    
+    #paginaCentral {
+        /* background-color: #F7F7FD; */
+        background-color: red;
+        width: 64%;
+        height: 900px;
+        border-radius: 40px;
+        float: left;
+        margin-left: 15%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #pagina {
+        float: right;
+        width: 100%;
+    }
+    
+    #cajon1 {
+        float: left;
+        width: 10%;
+    }
+    
+    #cajon3 {
+        float: left;
+        width: 20%;
+        margin: 15px;
         margin-top: 29px;
     }
+    
     #inpusitaso {
         width: 80%;
         float: left;
     }
+    
     #imagensita {
-        width: 20%;
+        width: 15%;
         float: left;
     }
+    
     #inputsito4 {
-        width: 350%;
+        width: 250%;
     }
-    #botonLogin {
+    
+    #conjunto {
         float: left;
-        width: 40%;
-        margin-left: 8%;
+        width: 45%;
+        border-radius: 5px;
+        flex: auto;
     }
-    #botonRegistro {
-        float: left;
-        width: 40%;
-        margin-left: 5%;
+    
+    .aea {
+        border: #67C5C8 0px solid;
+        background-color: #F7F7FD;
+        border-radius: 5px;
+        height: 50px;
+        margin-left: 20px;
     }
+    
+    footer {
+        width: 100%;
+        background-color: #67C5C8;
+        height: auto;
+        margin-top: 50px;
+    }
+    
+    footer img {
+        width: 86%;
+        background-color: #67C5C8;
+        padding-left: 14%;
+    }
+    
+    .espacito {
+        padding-top: 20px;
+    }
+    
+    .espacito2 {
+        padding-top: 35px;
+    }
+    
     .contenido {
         background-color: white;
-        width: 30%;
+        width: 20%;
         height: 200px;
         float: left;
         margin: 6%;
         border-radius: 20px;
         margin-left: 7%;
     }
-    #paginaCentral {
-        float: left;
-        height: 1070px;
-    }
-    .espacito {
-        height: 30px;
-    }
-    .espacito2 {
-        height: 40px;
-    }
-    .contenido {
-        margin-bottom: 90px;
+    
+    .contenido img {
+        width: 76%;
         margin-left: 11%;
+        margin-top: 10px;
     }
+    
+    #dorito {
+        width: 65% !important;
+        margin-left: 15% !important;
+    }
+    
+    .clearfix {
+        float: none;
+        clear: both;
+    }
+    
+    #pagina2 {
+        background-color: #F7F7FD;
+        width: 70%;
+        height: auto;
+        border-radius: 40px;
+        float: left;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    
+    #pagina3 {
+        width: 91%;
+        height: auto;
+        margin-left: 4%;
+        float: left;
+    }
+    
+    #slider {
+        overflow: hidden;
+    }
+    
+    #slider figure img {
+        float: left;
+        width: 20%;
+        position: relative;
+        margin: 0;
+        left: -20%;
+        animation: 10s sliders infinite linear;
+    }
+    
     #paginaCentral2 {
-        height: 990px;
+        background-color: #F7F7FD;
+        width: 60%;
+        height: 1150px;
+        border-radius: 40px;
+        float: left;
         margin-left: 20%;
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    
+    .item-one {
+        width: 100%;
+        float: left;
+    }
+    
+    .boxito {
+        width: 80%;
+        float: left;
+    }
+    
+    .linea {
+        width: 100%;
+        background-color: #E95D5D;
+        height: 8px;
+    }
+    
     .boxito2 {
         width: 20%;
+        float: left;
         position: relative;
         left: -40%;
-        top: -50px;
         text-align: center;
         padding-top: 20px;
     }
+    
     .boxito3 {
+        height: 15px;
+        float: left;
+        color: #E95D5D;
         position: relative;
-        top: -110px;
-        left: 80%;
+        top: -60px;
         padding-left: 5%;
     }
-    #doritoslocos {
-        position: relative;
-        left: 80%;
+    
+    .item-one .boxito img {
+        width: 20%;
+        height: 10%;
+        margin: 20px;
     }
-}
-
-@media (max-width: 1077px) {
-    .espacito {
-        height: 50px;
+    
+    #aaaaa {
+        color: gray;
     }
-    .espacito2 {
-        height: 60px;
+    
+    @keyframes sliders {
+        from {
+            left: -95%;
+        }
+        to {
+            left: 98%;
+        }
     }
-    .contenido {
-        margin-bottom: 90px;
-        margin-left: 11%;
+    
+    #conteiner3 {
+        width: 40%;
+        background-color: #E95D5D;
+        position: absolute !important;
+        height: 1736px;
+        top: 0;
+        left: 60%;
     }
-    #paginaCentral2 {
-        height: 1090px;
-        margin-left: 20%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 980px) {
-    #paginaCentral2 {
-        height: 1290px;
-        margin-left: 20%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 955px) {
-    .espacito {
-        height: 70px;
-    }
-    .espacito2 {
-        height: 80px;
-    }
-    .contenido {
-        margin-bottom: 90px;
-        margin-left: 11%;
-    }
-    #paginaCentral {
+    
+    #conteiner3 strong h1 {
+        color: white;
+        margin-top: 45px;
         float: left;
-        height: 1030px;
+        width: 50%;
+        margin-left: 15px;
     }
-    #paginaCentral2 {
-        height: 1390px;
-        margin-left: 20%;
+    
+    #conteiner3 #imagensita {
+        margin-top: 30px;
+        float: right;
+        width: 40%;
+        padding-right: 15px;
+    }
+    
+    #conteiner3 #imagensita img {
+        margin-top: 30px;
+        height: 20%;
+        width: 40%;
+        padding-right: 15px;
+        margin-left: 50%;
+        position: relative;
+        bottom: 35px;
+        left: 30px;
+    }
+    
+    #pipilin {
+        width: 100%;
+    }
+    
+    #maincra1 {
+        float: left;
+        width: 100%;
+    }
+    
+    .maincra1_incorrecto {
+        color: red;
+    }
+    
+    .maincra1_correcto {
+        color: greenyellow;
+    }
+    
+    #pibe {
+        float: left;
+        width: 100%;
+    }
+    
+    #imagenPoderosa {
+        float: left;
+        width: 45%;
+    }
+    
+    #escrituras {
+        float: left;
+        width: 40%;
+    }
+    
+    #escrituras p {
+        font-size: 27px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    #imagenPoderosa img {
+        width: 40%;
+        height: 40%;
+        margin-left: 50%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    #maincra2 {
+        float: left;
+        width: 100%;
+    }
+    
+    .inputsito33 {
+        background-color: #F7F7FD;
+        border: #67C5C8 1px;
+        border-radius: 5px;
+        height: 60px;
+        margin-left: 6%;
+        text-align: center;
         margin-top: 20px;
-        margin-bottom: 20px;
+        width: 90%;
     }
-}
+    
+    #botoncompra2 {
+        background-color: #67C5C8;
+        color: white;
+        border: #67C5C8 solid 2px;
+        width: 30%;
+        position: relative;
+        left: 37%;
+        margin-top: 40px;
+    }
+    
+    #botoncompra3 {
+        background-color: #67C5C8;
+        color: white;
+        border: #67C5C8 solid 2px;
+        width: 30%;
+        position: relative;
+        margin-top: 40px;
+    }
+    
+    @media (max-width: 1890px) {
+        /*se ejecuratan estos estilos en este width*/
+        #inputsito4 {
+            width: 250%;
+        }
+    }
+    
+    @media (max-width: 1790px) {
+        /*se ejecuratan estos estilos en este width*/
+        #inputsito4 {
+            width: 250%;
+        }
+        .caracteristicas {
+            font-size: 100%;
+        }
+        #paginaCentral {
+            height: 750px;
+        }
+        .espacito {
+            height: 40px;
+        }
+        .espacito2 {
+            height: 50px;
+        }
+        .contenido {
+            margin-bottom: 80px;
+        }
+        #paginaCentral2 {
+            height: 1050px;
+            margin-left: 20%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .boxito2 {
+            width: 20%;
+            position: relative;
+            left: -40%;
+            top: -20px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .boxito3 {
+            height: 15px;
+            position: relative;
+            top: -90px;
+            padding-left: 5%;
+        }
+    }
+    
+    @media (max-width: 1480px) {
+        #paginaCentral {
+            height: 730px;
+        }
+        .espacito {
+            height: 60px;
+        }
+        .espacito2 {
+            height: 70px;
+        }
+        .contenido {
+            margin-bottom: 80px;
+        }
+        #paginaCentral2 {
+            height: 1050px;
+            margin-left: 20%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .boxito2 {
+            width: 20%;
+            position: relative;
+            left: -40%;
+            top: -50px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .boxito3 {
+            position: relative;
+            top: -110px;
+            left: 550px;
+            padding-left: 5%;
+        }
+        #doritoslocos {
+            position: relative;
+            left: -5px;
+        }
+    }
+    
+    @media (max-width: 1427px) {
+        #paginaCentral2 {
+            height: 1180px;
+            margin-left: 20%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .boxito2 {
+            width: 20%;
+            position: relative;
+            left: -40%;
+            top: -50px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .boxito3 {
+            position: relative;
+            top: -130px;
+            left: 450px;
+            padding-left: 5%;
+        }
+        #doritoslocos {
+            position: relative;
+            left: 450px;
+        }
+    }
+    
+    @media (max-width: 1260px) {
+        #paginaCentral {
+            height: 730px;
+        }
+        #cajon3 {
+            float: left;
+            width: 20%;
+            margin-top: 29px;
+        }
+        #inpusitaso {
+            width: 70%;
+            float: left;
+        }
+        #imagensita {
+            width: 10%;
+            float: left;
+        }
+        #inputsito4 {
+            width: 280%;
+        }
+        .espacito {
+            height: 80px;
+        }
+        .espacito2 {
+            height: 90px;
+        }
+        .contenido {
+            margin-bottom: 90px;
+        }
+        #paginaCentral2 {
+            height: 990px;
+            margin-left: 20%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .boxito2 {
+            width: 20%;
+            position: relative;
+            left: -40%;
+            top: -50px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .boxito3 {
+            position: relative;
+            top: -130px;
+            left: 450px;
+            padding-left: 5%;
+        }
+        #doritoslocos {
+            position: relative;
+            left: 450px;
+        }
+    }
+    
+    @media (max-width: 1239px) {
+        #cajon3 {
+            float: left;
+            width: 100%;
+            margin-top: 29px;
+        }
+        #inpusitaso {
+            width: 80%;
+            float: left;
+        }
+        #imagensita {
+            width: 20%;
+            float: left;
+        }
+        #inputsito4 {
+            width: 350%;
+        }
+        #botonLogin {
+            float: left;
+            width: 40%;
+            margin-left: 8%;
+        }
+        #botonRegistro {
+            float: left;
+            width: 40%;
+            margin-left: 5%;
+        }
+        .contenido {
+            background-color: white;
+            width: 30%;
+            height: 200px;
+            float: left;
+            margin: 6%;
+            border-radius: 20px;
+            margin-left: 7%;
+        }
+        #paginaCentral {
+            float: left;
+            height: 1070px;
+        }
+        .espacito {
+            height: 30px;
+        }
+        .espacito2 {
+            height: 40px;
+        }
+        .contenido {
+            margin-bottom: 90px;
+            margin-left: 11%;
+        }
+        #paginaCentral2 {
+            height: 990px;
+            margin-left: 20%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .boxito2 {
+            width: 20%;
+            position: relative;
+            left: -40%;
+            top: -50px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .boxito3 {
+            position: relative;
+            top: -110px;
+            left: 80%;
+            padding-left: 5%;
+        }
+        #doritoslocos {
+            position: relative;
+            left: 80%;
+        }
+    }
+    
+    @media (max-width: 1077px) {
+        .espacito {
+            height: 50px;
+        }
+        .espacito2 {
+            height: 60px;
+        }
+        .contenido {
+            margin-bottom: 90px;
+            margin-left: 11%;
+        }
+        #paginaCentral2 {
+            height: 1090px;
+            margin-left: 20%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    
+    @media (max-width: 980px) {
+        #paginaCentral2 {
+            height: 1290px;
+            margin-left: 20%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    
+    @media (max-width: 955px) {
+        .espacito {
+            height: 70px;
+        }
+        .espacito2 {
+            height: 80px;
+        }
+        .contenido {
+            margin-bottom: 90px;
+            margin-left: 11%;
+        }
+        #paginaCentral {
+            float: left;
+            height: 1030px;
+        }
+        #paginaCentral2 {
+            height: 1390px;
+            margin-left: 20%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    /* W */
+    
+    #empresa {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .element_empresa {
+        text-align: center;
+    }
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+    }
+    
+    .footer_container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer_ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .footer_li {
+        margin-left: 20px;
+    }
+    
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    body {
+        background: #e8cbc0;
+        background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+        background: linear-gradient(to right, #e8cbc0, #636fa4);
+        min-height: 100vh;
+    }
+    
+    .social-link {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #666;
+        border-radius: 50%;
+        transition: all 0.3s;
+        font-size: 0.9rem;
+    }
+    
+    .social-link:hover,
+    .social-link:focus {
+        background: #ddd;
+        text-decoration: none;
+        color: #555;
+    }
+    
+    .menu {
+        flex: content;
+    }
+    
+    .menu_item {
+        color: #67C5C8;
+        width: 50%;
+        height: 100%;
+        left: -100%;
+        margin: 0;
+    }
+    
+    .menu_item:hover {
+        color: white;
+        border: solid #67C5C8 1px;
+        text-decoration: none;
+    }
+    
+    .navbar-inverse {
+        height: 20%;
+    }
+    
+    #cajon2 {
+        float: left;
+        width: 60%;
+        padding-top: 2.3%;
+        text-decoration: none;
+    }
+    
+    #my_nav {
+        letter-spacing: 4pt;
+        word-spacing: 50pt;
+        line-height: 22pt;
+        text-indent: 30pt;
+        text-align: right;
+        font-size: 35px;
+        padding-right: 10%;
+    }
+    
+    #startup_tittle {
+        font-size: 90px;
+        color: #67C5C8;
+    }
+    
+    .sub_tittle {
+        color: white;
+    }
