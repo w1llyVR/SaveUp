@@ -806,9 +806,13 @@
         padding-right: 10%;
     }
     
-    #startup_tittle {
+    .startup_tittle {
         font-size: 90px;
         color: #67C5C8;
+    }
+    
+    .startup_tittle:hover {
+        color: black;
     }
     
     .sub_tittle {
@@ -823,10 +827,22 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     
+    .sub_tittle:hover {
+        color: #67C5C8;
+    }
+    
     button {
         font-family: 'Courier New', Courier, monospace;
     }
     
     i {
+        color: #67C5C8;
+    }
+    
+    #our_team {
+        font-size: 80px;
+    }
+    
+    #our_team:hover {
         color: #67C5C8;
     }
