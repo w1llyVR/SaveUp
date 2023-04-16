@@ -780,7 +780,7 @@
     }
     
     .menu_item:hover {
-        color: white;
+        color: black;
         border: solid #67C5C8 1px;
         text-decoration: none;
     }
@@ -812,5 +812,21 @@
     }
     
     .sub_tittle {
-        color: white;
+        color: black;
+    }
+    
+    h1 {
+        font-family: monospace;
+    }
+    
+    h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    button {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    i {
+        color: #67C5C8;
     }
