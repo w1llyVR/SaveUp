@@ -23,12 +23,12 @@
         text-align: center;
     }
     
-    #pagina {
+    #page {
         float: right;
         width: 100%;
     }
     
-    #cajon1 {
+    #box_1 {
         float: left;
         width: 10%;
     }
@@ -86,7 +86,7 @@
         text-decoration: none;
     }
     
-    #cajon2 {
+    #box {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -134,7 +134,7 @@
         height: 20%;
     }
     
-    #cajon2 {
+    #box {
         float: left;
         width: 60%;
         padding-top: 1%;
@@ -245,7 +245,7 @@
             padding-right: 4%;
             width: 11em;
         }
-        #cajon2 {
+        #box {
             display: inline;
             font-size: 20px;
         }
